@@ -157,6 +157,11 @@ Sources: [NVIDIA forums](https://www.nvidia.com/en-us/geforce/forums/geforce-gra
 
 Em português: [LEIA-ME.md](LEIA-ME.md)
 
+**Using an AI assistant to fix this?** Point it at [AGENTS.md](AGENTS.md) — a guide written for AI
+coding agents, with the exact commands, the ten hypotheses that were measured and ruled out, and the
+disambiguating question that has to be asked first. It exists so an agent doesn't repeat the same
+eleven-hypothesis investigation.
+
 ## License
 
 MIT — use it, copy it, paste it in a forum thread. That's the point.
