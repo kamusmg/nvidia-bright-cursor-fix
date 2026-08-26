@@ -102,11 +102,14 @@ fix works; that particular mystery remains open. If you know the answer,
 
 ## Files
 
+**Just double-click `apply-fix.bat`.** No admin, no PowerShell knowledge, no execution-policy fiddling.
+
 | File | Purpose |
 |---|---|
-| [`apply-fix.ps1`](apply-fix.ps1) | Applies the fix live — no reboot, no closing your game |
-| [`revert-fix.ps1`](revert-fix.ps1) | Undoes it and restores the hardware cursor |
-| [`diagnose.ps1`](diagnose.ps1) | Read-only. Dumps driver, color depth, HDR state, gamma ramp, DWM keys, and the current cursor bitmap |
+| **[`apply-fix.bat`](apply-fix.bat)** | **Double-click this.** Applies the fix live — no reboot, no closing your game |
+| [`revert-fix.bat`](revert-fix.bat) | Double-click to undo and restore the hardware cursor |
+| [`diagnose.bat`](diagnose.bat) | Double-click to collect diagnostics. Read-only — changes nothing |
+| `apply-fix.ps1` / `revert-fix.ps1` / `diagnose.ps1` | The actual scripts, if you'd rather read them first or run them yourself |
 | `tools/StreamFantasma.exe` | Opens a real Desktop Duplication session and discards every frame. **Does not fix this bug** — included because it disproves the "capture forces composition" theory, and it's useful for forcing Composed Flip in other scenarios |
 
 Nothing here installs anything or leaves a process running. The fix is a single registry value.
